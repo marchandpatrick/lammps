@@ -14,6 +14,6 @@
 # vtk_SYSLIB = -lvtkCommonCore-7.1 -lvtkIOCore-7.1 -lvtkIOXML-7.1 -lvtkIOLegacy-7.1 -lvtkCommonDataModel-7.1 -lvtkIOParallelXML-7.1
 # vtk_SYSPATH = -L/usr/lib/x86_64-linux-gnu
 
-vtk_SYSINC = -I/usr/include/vtk-6.0
-vtk_SYSLIB = -lvtkCommonCore-6.0 -lvtkIOCore-6.0 -lvtkIOXML-6.0 -lvtkIOLegacy-6.0 -lvtkCommonDataModel-6.0
+vtk_SYSINC = -I/usr/include/vtk-6.3
+vtk_SYSLIB = -lvtkCommonCore -lvtkIOCore -lvtkIOXML -lvtkIOLegacy -lvtkCommonDataModel
 vtk_SYSPATH =
